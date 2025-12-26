@@ -1,0 +1,169 @@
+{
+  "config": {
+    "H_REFERENCE": 0.0005,
+    "TOL": 1e-08
+  },
+  "parameters": {
+    "alpha": 2.0,
+    "beta": 50.0,
+    "gamma": 100.0,
+    "delta": 1.0
+  },
+  "step_sizes": [
+    0.1,
+    0.05,
+    0.02,
+    0.01,
+    0.005
+  ],
+  "methods": {
+    "Euler+FPI": [
+      {
+        "h": 0.1,
+        "avg_iterations": 1.26,
+        "error": 4.494910734136795e+33,
+        "status": "failed",
+        "is_failure": true
+      },
+      {
+        "h": 0.05,
+        "avg_iterations": 1.25,
+        "error": 6.611161919958229e+23,
+        "status": "failed",
+        "is_failure": true
+      },
+      {
+        "h": 0.02,
+        "avg_iterations": 100.0,
+        "error": 0.0006595899051438092,
+        "status": "failed",
+        "is_failure": false
+      },
+      {
+        "h": 0.01,
+        "avg_iterations": 13.116,
+        "error": 0.000258593277364938,
+        "status": "success",
+        "is_failure": false
+      },
+      {
+        "h": 0.005,
+        "avg_iterations": 6.749,
+        "error": 0.00011117148108896746,
+        "status": "success",
+        "is_failure": false
+      }
+    ],
+    "Euler+NGS": [
+      {
+        "h": 0.1,
+        "avg_iterations": 8.16,
+        "error": 0.009458194805368636,
+        "status": "success",
+        "is_failure": false
+      },
+      {
+        "h": 0.05,
+        "avg_iterations": 6.84,
+        "error": 0.0026997325154426988,
+        "status": "success",
+        "is_failure": false
+      },
+      {
+        "h": 0.02,
+        "avg_iterations": 5.156,
+        "error": 0.0006595899051437537,
+        "status": "success",
+        "is_failure": false
+      },
+      {
+        "h": 0.01,
+        "avg_iterations": 4.292,
+        "error": 0.00025859327736488247,
+        "status": "success",
+        "is_failure": false
+      },
+      {
+        "h": 0.005,
+        "avg_iterations": 3.892,
+        "error": 0.00011117147542910599,
+        "status": "success",
+        "is_failure": false
+      }
+    ],
+    "Midpoint+FPI": [
+      {
+        "h": 0.1,
+        "avg_iterations": 1.48,
+        "error": 6.184073439002839e+35,
+        "status": "failed",
+        "is_failure": true
+      },
+      {
+        "h": 0.05,
+        "avg_iterations": 2.12,
+        "error": 1.9181003398151057e+23,
+        "status": "failed",
+        "is_failure": true
+      },
+      {
+        "h": 0.02,
+        "avg_iterations": 13.964,
+        "error": 0.00016062879481965053,
+        "status": "success",
+        "is_failure": false
+      },
+      {
+        "h": 0.01,
+        "avg_iterations": 7.492,
+        "error": 3.973736075263412e-05,
+        "status": "success",
+        "is_failure": false
+      },
+      {
+        "h": 0.005,
+        "avg_iterations": 4.942,
+        "error": 9.838479364088215e-06,
+        "status": "success",
+        "is_failure": false
+      }
+    ],
+    "Midpoint+NGS": [
+      {
+        "h": 0.1,
+        "avg_iterations": 6.78,
+        "error": 0.005487088465046974,
+        "status": "success",
+        "is_failure": false
+      },
+      {
+        "h": 0.05,
+        "avg_iterations": 5.48,
+        "error": 0.0010687947638192141,
+        "status": "success",
+        "is_failure": false
+      },
+      {
+        "h": 0.02,
+        "avg_iterations": 4.388,
+        "error": 0.00016062879481965053,
+        "status": "success",
+        "is_failure": false
+      },
+      {
+        "h": 0.01,
+        "avg_iterations": 3.94,
+        "error": 3.973736075396639e-05,
+        "status": "success",
+        "is_failure": false
+      },
+      {
+        "h": 0.005,
+        "avg_iterations": 3.398,
+        "error": 9.838479707757752e-06,
+        "status": "success",
+        "is_failure": false
+      }
+    ]
+  }
+}
